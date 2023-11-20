@@ -16,21 +16,15 @@ RUN conda install -y pandas=2.1.3 && \
 # conda list
 
 # exit container
+# exit
 # type: ctrl + c
 
 # push to github
 # go to github - actions
 
-# hidden folders for automation
+# hidden folders for automation and add information for the yml file
 # .github/workflows/docker-image.yml
 
 
-
-# changes:
-#  update under jobs - name:extract metadata... - images: update my name and the github reporitory name
-
-# changes:
-# Actions secrets and variables: set the username and the password
-# in the docker image file add the same username and password: 
-
-# username and password
+# set secrets / usernames
+# Settings - Secrets and Variables - Actions: set the username and the password
