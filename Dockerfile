@@ -8,8 +8,8 @@ FROM quay.io/jupyter/minimal-notebook:2023-11-19
 #  docker run --rm -it test16 bash
 
 # add packages to the base image
-RUN conda install -y pandas=2.1.3 && \
-    conda install altair=5.1.2
+RUN conda install -y pandas=2.1.3 \
+    altair=5.1.2
 
 
 # list of everything installed and their version
